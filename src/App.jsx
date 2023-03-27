@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import ForiImperiali from "./imgs/ForiImperiali.jpg";
 import "./App.css";
 import MyComponent from "./components/MyComponent";
 import ClassComponent from "./components/ClassComponent";
@@ -32,6 +33,8 @@ function App() {
           url="https://www.turismoroma.it/sites/default/files/Fontana%20di%20Trevi3.jpg"
           alt="Fontana di trevi"
         />
+        <ButtonComponent bgColor="aqua" textSize="1.5" buttonText="Bottone 3" />
+        <ImageComponent larghezza="400px" altezza="200px" url={ForiImperiali} alt="Fori Imperiali" />
       </header>
     </div>
   );
